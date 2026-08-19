@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta
+      name="description"
+      content="HARTMANN - echipamente profesionale pentru service auto în Moldova."
+    />
+    <meta name="theme-color" content="#d9d6cf" />
+    <title>HARTMANN - Echipamente pentru service auto</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip" href="#main" data-t="skip">Sari la conținut</a>
+    <header class="site-header" id="top">
+      <div class="shell header-row">
+        <a class="brand" href="#top" aria-label="HARTMANN"
+          ><img src="assets/hartmann-logo-dark.png" alt="HARTMANN"
+        /></a>
+        <nav class="main-nav" id="nav" aria-label="Navigare principală">
+          <a href="#catalog" data-t="catalog">Catalog</a
+          ><a href="#about" data-t="about">Despre brand</a
+          ><a href="#contacts" data-t="contacts">Contacte</a>
+        </nav>
+        <div class="header-actions">
+          <div class="langs" aria-label="Limbă">
+            <button data-lang="ro" type="button">RO</button
+            ><button data-lang="ru" type="button">RU</button>
+          </div>
+          <button
+            class="menu"
+            type="button"
+            aria-controls="nav"
+            aria-expanded="false"
+          >
+            <span></span><span></span><i data-t="menu">Meniu</i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="shell hero-stage">
+          <h1 id="hero-title" data-t="heroTitle">
+            Utilaje pe care se sprijină service-ul.
+          </h1>
+          <p class="hero-lead" data-t="heroText">
+            Echipamente profesionale pentru anvelope, echilibrare și organizarea
+            atelierului - prezentate clar, fără elemente inutile.
+          </p>
+          <a class="button" href="#catalog"
+            ><span data-t="seeCatalog">Vezi catalogul</span
+            ><span aria-hidden="true">↓</span></a
+          >
+          <figure class="hero-machine">
+            <img
+              src="assets/rmm-300-clean-v2.png"
+              alt="Mașină de dejantat HARTMANN"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <nav class="category-strip" aria-label="Categorii">
+        <div class="shell category-strip-inner">
+          <a href="#lifts"><span>1</span><b data-t="catLifts">Elevatoare</b></a
+          ><a href="#tyre"
+            ><span>2</span><b data-t="catTyre">Mașini de dejantat</b></a
+          ><a href="#balancers"
+            ><span>3</span><b data-t="catBalancers">Echilibratoare</b></a
+          ><a href="#air"><span>4</span><b data-t="catAir">Compresoare</b></a
+          ><a href="#workshop"
+            ><span>5</span><b data-t="catWorkshop">Echipare atelier</b></a
+          >
+        </div>
+      </nav>
+
+      <section class="catalog" id="catalog" aria-labelledby="catalog-title">
+        <div class="shell">
+          <header class="section-head">
+            <div>
+              <p>HARTMANN / 2026</p>
+              <h2 id="catalog-title" data-t="catalogHeading">
+                Alegeți direcția de lucru.
+              </h2>
+            </div>
+            <p data-t="catalogText">
+              Cinci categorii și 25 de modele orientative. Datele tehnice vor fi
+              completate după aprobarea gamei finale.
+            </p>
+          </header>
+          <div id="catalog-sections"></div>
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="shell about-grid">
+          <div class="about-title">
+            <p>HARTMANN / MOLDOVA</p>
+            <h2 data-t="aboutTitle">Echipament pentru munca de zi cu zi.</h2>
+          </div>
+          <div class="about-copy">
+            <p class="about-lead" data-t="aboutText">
+              HARTMANN prezintă echipamentele direct: categorii clare, produse
+              vizibile și contact cu furnizorul înainte de alegere.
+            </p>
+            <div class="principles">
+              <article>
+                <div>
+                  <h3 data-t="value1Title">Gamă clară</h3>
+                  <p data-t="value1Text">
+                    Produsele sunt grupate după rolul lor în atelier.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3 data-t="value2Title">Alegere practică</h3>
+                  <p data-t="value2Text">
+                    Comparați modelele fără zgomot comercial.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <div>
+                  <h3 data-t="value3Title">Contact direct</h3>
+                  <p data-t="value3Text">
+                    Primiți informația necesară înainte de achiziție.
+                  </p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contacts" id="contacts">
+        <div class="shell contacts-grid">
+          <div>
+            <p>CONTACT / MOLDOVA</p>
+            <h2 data-t="contactTitle">
+              Aveți nevoie de un utilaj pentru atelier?
+            </h2>
+          </div>
+          <div class="contact-data">
+            <p data-t="contactText">
+              Spuneți-ne ce lucrări efectuați și vă ajutăm să alegeți categoria
+              potrivită.
+            </p>
+            <a class="contact-link" href="tel:+000000000">+000 000 000</a
+            ><a class="contact-link" href="mailto:contact@000.md"
+              >contact@000.md</a
+            ><span>000, Moldova</span
+            ><a class="button dark" href="mailto:contact@000.md"
+              ><span data-t="write">Scrie-ne</span><span>↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="shell footer-row">
+        <img src="assets/hartmann-logo-white.png" alt="HARTMANN" />
+        <p>Website development Xsort Web Studio</p>
+        <span>© <i id="year"></i></span>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
