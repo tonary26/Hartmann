@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86254420-3f3a-4788-b129-dd6d3c1f00c1" name="Changes" comment="" />
+    <list default="true" id="86254420-3f3a-4788-b129-dd6d3c1f00c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +20,71 @@
   <component name="EmbeddingIndexingInfo">
     <option name="cachedIndexableFilesCount" value="15" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="5.4837069725785345E-6" />
+      <entry key="MS500" value="0.28942493276645387" />
+      <entry key="S2" value="3.0345310014560773" />
+      <entry key="S5" value="6.114967623978073" />
+      <entry key="S10" value="11.251553754839925" />
+      <entry key="S30" value="22.216580651320534" />
+      <entry key="S60" value="27.30538111617608" />
+      <entry key="M2" value="30.42171668033279" />
+      <entry key="M5" value="32.50883400549558" />
+      <entry key="M10" value="33.244047717200004" />
+      <entry key="M15" value="33.493697385432036" />
+      <entry key="M30" value="33.745673848900196" />
+      <entry key="H1" value="33.87254177364539" />
+      <entry key="H2" value="33.93619691834144" />
+      <entry key="H4" value="33.968079944402795" />
+      <entry key="D1" value="33.99467741731367" />
+      <entry key="W1" value="33.99923956799716" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0020933075440162" />
+      <entry key="MS500" value="1.291183396617114" />
+      <entry key="S2" value="1.7345843166391544" />
+      <entry key="S5" value="1.8839275310636712" />
+      <entry key="S10" value="1.9401742025091262" />
+      <entry key="S30" value="1.9796466178707495" />
+      <entry key="S60" value="1.9897709926395852" />
+      <entry key="M2" value="1.9948723499221321" />
+      <entry key="M5" value="1.9979457761760528" />
+      <entry key="M10" value="1.9989723600661096" />
+      <entry key="M15" value="1.999314789318912" />
+      <entry key="M30" value="1.9996573359501304" />
+      <entry key="H1" value="1.9998286532952187" />
+      <entry key="H2" value="1.9999143229773333" />
+      <entry key="H4" value="1.9999571605710584" />
+      <entry key="D1" value="1.9999928599677275" />
+      <entry key="W1" value="1.9999989799922684" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.16165720629938793" />
+      <entry key="MS500" value="1.143263179201545" />
+      <entry key="S2" value="4.576679157846107" />
+      <entry key="S5" value="7.908893087026836" />
+      <entry key="S10" value="13.143041964759334" />
+      <entry key="S30" value="24.178326066709488" />
+      <entry key="S60" value="29.285855492973955" />
+      <entry key="M2" value="32.41183715731533" />
+      <entry key="M5" value="34.504851560272776" />
+      <entry key="M10" value="35.24205114890425" />
+      <entry key="M15" value="35.49236513341478" />
+      <entry key="M30" value="35.74500711492887" />
+      <entry key="H1" value="35.872208253776556" />
+      <entry key="H2" value="35.936030120074015" />
+      <entry key="H4" value="35.96799653567174" />
+      <entry key="D1" value="35.99466351452434" />
+      <entry key="W1" value="35.99923758185172" />
+    </decayedShown>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
   <component name="ProjectColorInfo">{
@@ -30,21 +96,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -66,7 +133,7 @@
       <option name="presentableId" value="Default" />
       <updated>1787142844485</updated>
       <workItem from="1787142845496" duration="1840000" />
-      <workItem from="1787145733013" duration="6327000" />
+      <workItem from="1787145733013" duration="7174000" />
     </task>
     <servers />
   </component>

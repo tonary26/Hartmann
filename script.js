@@ -157,9 +157,12 @@ function setupScrollMotion() {
 
   document.querySelectorAll(".products").forEach((list) => {
     const cards = list.querySelectorAll(".product-card");
+    const isMobile = window.matchMedia("(max-width: 720px)").matches;
+    const delayStep = isMobile ? 45 : 70;
+    const maxDelayIndex = isMobile ? 2 : 4;
 
     cards.forEach((card, index) => {
-      const delay = Math.min(index, 4) * 70;
+      const delay = Math.min(index, maxDelayIndex) * delayStep;
 
       card.style.setProperty("--reveal-delay", `${delay}ms`);
     });
